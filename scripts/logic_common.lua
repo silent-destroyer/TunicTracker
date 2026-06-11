@@ -47,6 +47,22 @@ function has_ladder(ladderName)
     return Tracker:FindObjectForCode(ladderName).Active
 end
 
+function has_enemy_soul(soulName)
+    if not Tracker:FindObjectForCode("shuffle_enemy_souls").Active then
+        return true
+    end
+
+    return Tracker:FindObjectForCode(soulName).Active
+end
+
+function enemy_drops()
+    return Tracker:FindObjectForCode("shuffle_enemy_drops").CurrentState > 0
+end
+
+function extra_enemy()
+    return Tracker:FindObjectForCode("shuffle_enemy_drops").CurrentState == 2
+end
+
 function is_fs()
     return Tracker:FindObjectForCode("fuse_shuffle").Active == true
 end
