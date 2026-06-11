@@ -153,7 +153,7 @@ function onClear(slot_data)
     end
 
     set_option("hexagonquest", slot_data.hexagon_quest, false)
-    if slot_data.hexagon_quest.Active then
+    if Tracker:FindObjectForCode("hexagonquest").Active then
         HEXGOAL = slot_data["Hexagon Quest Goal"]
     end
 
@@ -164,8 +164,10 @@ function onClear(slot_data)
     set_option("fuse_shuffle", slot_data.shuffle_fuses, false)
     set_option("bell_shuffle", slot_data.shuffle_bells, false)
 
-    Tracker:FindObjectForCode("shuffle_enemy_drops").CurrentStage = slot_data.shuffle_enemy_drops
-    set_option("shuffle_enemy_souls", slot_data.shuffle_enemy_souls, false)
+    if slot_data["shuffle_enemy_drops"] and slot_data["shuffle_enemy_souls"] then
+        Tracker:FindObjectForCode("shuffle_enemy_drops").CurrentStage = slot_data.shuffle_enemy_drops
+        set_option("shuffle_enemy_souls", slot_data.shuffle_enemy_souls, false)
+    end
 
     set_option("maskless", slot_data.maskless, false)
     set_option("lanternless", slot_data.lanternless, false)
