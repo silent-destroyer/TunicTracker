@@ -751,40 +751,20 @@
 		]
 	},
 	{
-		"name": "Randomizer Mode",
-		"type": "progressive",
-		"loop": false,
-		"allow_disabled": false,
-		"stages": [
-			{ //Classic
-				"name": "Classic",
-				"img": "images/Classic.png",
-				"codes": "hexagonquest"
-			},
-			{ //Hexagon Quest
-				"name": "Hexagon Quest",
-				"img": "images/Hexagon_Quest.png",
-				"codes": "hexagonquest"
-			}
-		]
+		"name": "Hexagon Quest",
+		"type": "toggle",
+		"loop": true,
+		"disabled_img": "images/Hexagon_Quest.png",
+		"img": "images/Hexagon_Quest.png",
+		"codes": "hexagonquest"
 	},
 	{
-		"name": "Sword Setting",
-		"type": "progressive",
-		"loop": false,
-		"allow_disabled": false,
-		"stages": [
-			{
-				"name": "Stick and Swords",
-				"img": "images/stickandswords.png",
-				"codes": "progswordSetting"
-			},
-			{
-				"name": "Progressive Swords",
-				"img": "images/progressiveswords.png",
-				"codes": "progswordSetting"
-			}
-		]
+		"name": "Sword Progression",
+		"type": "toggle",
+		"loop": true,
+		"disabled_img": "images/progressiveswords.png",
+		"img": "images/progressiveswords.png",
+		"codes": "progswordSetting"
 	},
 	{
 		"name": "Entrance Rando Setting",
@@ -806,21 +786,11 @@
 	},
 	{
 		"name": "Ladder Shuffle Setting",
-		"type": "progressive",
-		"loop": false,
-		"allow_disabled": false,
-		"stages": [
-			{
-				"name": "Ladder Shuffle Off",
-				"img": "images/ladder_shuffle_off.png",
-				"codes": "ladder_shuffle_off"
-			},
-			{
-				"name": "Ladder Shuffle On",
-				"img": "images/ladder_shuffle_on.png",
-				"codes": "ladder_shuffle_on"
-			}
-		]
+		"type": "toggle",
+		"loop": true,
+		"disabled_img": "images/ladder_shuffle.png",
+		"img": "images/ladder_shuffle.png",
+		"codes": "ladder_shuffle"
 	},
 	{
 		"name": "Breakable Shuffle",
@@ -837,6 +807,35 @@
 		"disabled_img": "images/fuse_shuffle_option.png",
 		"img": "images/fuse_shuffle_option.png",
 		"codes": "fuse_shuffle"
+	},
+	{
+		"name": "Shuffle Enemy Drops",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"codes": "shuffle_enemy_drops",
+		"stages": [
+			{
+				"img": "images/shuffle_enemy_drops_off.png",
+				"codes": "shuffle_enemy_drops"
+			},
+			{
+				"img": "images/shuffle_enemy_drops_on.png",
+				"codes": "shuffle_enemy_drops"
+			},
+			{
+				"img": "images/shuffle_enemy_drops_extra.png",
+				"codes": "shuffle_enemy_drops"
+			}
+		]
+	},
+	{
+		"name": "Shuffle Enemy Souls",
+		"type": "toggle",
+		"loop": true,
+		"disabled_img": "images/shuffle_enemy_souls.png",
+		"img": "images/shuffle_enemy_souls.png",
+		"codes": "shuffle_enemy_souls"
 	},
 	//Tricks Toggles
 	{
@@ -1301,6 +1300,199 @@
 		"type": "toggle",
 		"img": "images/fuses/library_lab_fuse.png",
 		"codes": "library_lab_fuse"
+	},
+	//Enemy Souls
+	{
+		"name": "Enemy Soul (Administrator)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_administrator.png",
+		"codes": "enemy_soul_administrator"
+	},
+	{
+		"name": "Enemy Soul (Phrend)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_phrend.png",
+		"codes": "enemy_soul_phrend"
+	},
+	{
+		"name": "Enemy Soul (Beefboy)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_beefboy.png",
+		"codes": "enemy_soul_beefboy"
+	},
+	{
+		"name": "Enemy Soul (Blobs)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_blobs.png",
+		"codes": "enemy_soul_blobs"
+	},
+	{
+		"name": "Enemy Soul (Fleemers)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_fleemers.png",
+		"codes": "enemy_soul_fleemers"
+	},
+	{
+		"name": "Enemy Soul (Crabs)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_crabs.png",
+		"codes": "enemy_soul_crabs"
+	},
+	{
+		"name": "Enemy Soul (Chompignom)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_chompignom.png",
+		"codes": "enemy_soul_chompignom"
+	},
+	{
+		"name": "Enemy Soul (Husher)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_husher.png",
+		"codes": "enemy_soul_husher"
+	},
+	{
+		"name": "Enemy Soul (Autobolt)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_autobolt.png",
+		"codes": "enemy_soul_autobolt"
+	},
+	{
+		"name": "Enemy Soul (Zombie Foxes)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_zombie_foxes.png",
+		"codes": "enemy_soul_zombie_foxes"
+	},
+	{
+		"name": "Enemy Soul (Frogs)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_frogs.png",
+		"codes": "enemy_soul_frogs"
+	},
+	{
+		"name": "Enemy Soul (Lost Echo)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_lost_echo.png",
+		"codes": "enemy_soul_lost_echo"
+	},
+	{
+		"name": "Enemy Soul (Gunslinger)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_gunslinger.png",
+		"codes": "enemy_soul_gunslinger"
+	},
+	{
+		"name": "Enemy Soul (Hedgehogs)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_hedgehogs.png",
+		"codes": "enemy_soul_hedgehogs"
+	},
+	{
+		"name": "Enemy Soul (Laser Trap)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_laser_trap.png",
+		"codes": "enemy_soul_laser_trap"
+	},
+	{
+		"name": "Enemy Soul (Envoy)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_envoy.png",
+		"codes": "enemy_soul_envoy"
+	},
+	{
+		"name": "Enemy Soul (Garden Knight)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_garden_knight.png",
+		"codes": "enemy_soul_garden_knight"
+	},
+	{
+		"name": "Enemy Soul (Librarian)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_librarian.png",
+		"codes": "enemy_soul_librarian"
+	},
+	{
+		"name": "Enemy Soul (Plover)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_plover.png",
+		"codes": "enemy_soul_plover"
+	},
+	{
+		"name": "Enemy Soul (Fairies)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_fairies.png",
+		"codes": "enemy_soul_fairies"
+	},
+	{
+		"name": "Enemy Soul (Scavengers)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_scavengers.png",
+		"codes": "enemy_soul_scavengers"
+	},
+	{
+		"name": "Enemy Soul (Boss Scavenger)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_boss_scavenger.png",
+		"codes": "enemy_soul_boss_scavenger"
+	},
+	{
+		"name": "Enemy Soul (Tentacle)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_tentacle.png",
+		"codes": "enemy_soul_tentacle"
+	},
+	{
+		"name": "Enemy Soul (Rudelings)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_rudelings.png",
+		"codes": "enemy_soul_rudelings"
+	},
+	{
+		"name": "Enemy Soul (Spiders)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_spiders.png",
+		"codes": "enemy_soul_spiders"
+	},
+	{
+		"name": "Enemy Soul (Siege Engine)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_siege_engine.png",
+		"codes": "enemy_soul_siege_engine"
+	},
+	{
+		"name": "Enemy Soul (Slorm)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_slorm.png",
+		"codes": "enemy_soul_slorm"
+	},
+	{
+		"name": "Enemy Soul (Baby Slorm)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_baby_slorm.png",
+		"codes": "enemy_soul_baby_slorm"
+	},
+	{
+		"name": "Enemy Soul (Voidling)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_voidling.png",
+		"codes": "enemy_soul_voidling"
+	},
+	{
+		"name": "Enemy Soul (Custodians)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_custodians.png",
+		"codes": "enemy_soul_custodians"
+	},
+	{
+		"name": "Enemy Soul (Voidtouched)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_voidtouched.png",
+		"codes": "enemy_soul_voidtouched"
+	},
+	{
+		"name": "Enemy Soul (The Heir)",
+		"type": "toggle",
+		"img": "images/souls/enemy_soul_the_heir.png",
+		"codes": "enemy_soul_the_heir"
 	},
 	//Statics
 	{
