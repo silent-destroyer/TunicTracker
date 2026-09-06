@@ -1626,61 +1626,6 @@
             ]
           },
           {
-            "name": "Forest Boss Room Enemies",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3900,
-                "y": 2800,
-                "size": 65
-              },
-              {
-                "map": "east_forest",
-                "x": 1928,
-                "y": 189,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Forest Boss Room - Top Left Rudeling",
-                "item_count": 1,
-                "access_rules": [
-                  "@Forest Boss Room,$enemy_access|rudeling"
-                ]
-              },
-              {
-                "name": "Forest Boss Room - Guard Captain",
-                "item_count": 1,
-                "access_rules": []
-              },
-              {
-                "name": "Forest Boss Room - Bottom Left Rudeling",
-                "item_count": 1,
-                "access_rules": [
-                  "@Forest Boss Room,$enemy_access|rudeling"
-                ],
-                "visibility_rules": "enemy_drops_extra"
-              },
-              {
-                "name": "Forest Boss Room - Bottom Right Rudeling",
-                "item_count": 1,
-                "access_rules": [
-                  "@Forest Boss Room,$enemy_access|rudeling"
-                ],
-                "visibility_rules": "enemy_drops_extra"
-              },
-              {
-                "name": "Forest Boss Room - Top Right Rudeling",
-                "item_count": 1,
-                "access_rules": [
-                  "@Forest Boss Room,$enemy_access|rudeling"
-                ],
-                "visibility_rules": "enemy_drops_extra"
-              }
-            ]
-          },
-          {
             "name": "Rudelings Near Broken Obelisk",
             "map_locations": [
               {

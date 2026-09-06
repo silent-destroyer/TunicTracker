@@ -3182,14 +3182,54 @@
                 "hosted_item": "captain"
               },
               {
-                "name": "Enemy Drop",
-                "visibility_rules": "enemy_drop_shuffle",
+                "name": "Forest Boss Room - Guard Captain",
+                "item_count": 1,
                 "chest_unopened_img": "images/souls/enemy_soul.png",
                 "chest_opened_img": "images/souls/enemy_soul_grey.png",
                 "access_rules": [
                   "$enemy_access|guard_captain"
                 ],
-                "item_count": 1
+                "visibility_rules": "enemy_drop_shuffle"
+              },
+              {
+                "name": "Forest Boss Room - Top Left Rudeling",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "$enemy_access|rudeling"
+                ],
+                "visibility_rules": "enemy_drop_shuffle"
+              },
+              {
+                "name": "Forest Boss Room - Bottom Left Rudeling",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "$enemy_access|rudeling"
+                ],
+                "visibility_rules": "enemy_drops_extra"
+              },
+              {
+                "name": "Forest Boss Room - Bottom Right Rudeling",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "$enemy_access|rudeling"
+                ],
+                "visibility_rules": "enemy_drops_extra"
+              },
+              {
+                "name": "Forest Boss Room - Top Right Rudeling",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "$enemy_access|rudeling"
+                ],
+                "visibility_rules": "enemy_drops_extra"
               }
             ]
           }
