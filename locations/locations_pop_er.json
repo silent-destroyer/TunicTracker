@@ -1387,6 +1387,16 @@
                   "$combat_logic_equipment|overworld|dagger,[$combat_logic_on|overworld|dagger]"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Overworld - [Southwest] Autobolt Guarding Chest Near Wear",
+                "item_count": 1,
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "access_rules": [
+                  "$enemy_access|autobolt"
+                ],
+                "visibility_rules": "enemy_drop_shuffle"
               }
             ]
           },
@@ -1413,6 +1423,16 @@
                   "orb,$enemy_soul_access|autobolt,$combat_logic_equipment|overworld,[$combat_logic_on|overworld]"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Overworld - [Southwest] Autobolt Guarding Chest On Island",
+                "item_count": 1,
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "access_rules": [
+                  "$enemy_access|autobolt_gap"
+                ],
+                "visibility_rules": "enemy_drop_shuffle"
               }
             ]
           },

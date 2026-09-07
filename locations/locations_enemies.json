@@ -931,39 +931,6 @@
             ]
           },
           {
-            "name": "Autobolts Guarding Chests",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2700,
-                "y": 2500,
-                "size": 65
-              },
-              {
-                "map": "overworld",
-                "x": 255,
-                "y": 939,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Overworld - [Southwest] Autobolt Guarding Chest On Island",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld Beach,$enemy_access|autobolt_gap"
-                ]
-              },
-              {
-                "name": "Overworld - [Southwest] Autobolt Guarding Chest Near Wear",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld Beach,$enemy_access|autobolt"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Hourglass Cave Autobolts",
             "map_locations": [
               {
