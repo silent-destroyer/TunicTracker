@@ -6634,7 +6634,7 @@
                 "hosted_item": "engine"
               },
               {
-                "name": "Enemy Drop",
+                "name": "Fortress Arena - Defeat Siege Engine",
                 "visibility_rules": "enemy_drop_shuffle",
                 "chest_unopened_img": "images/souls/enemy_soul.png",
                 "chest_opened_img": "images/souls/enemy_soul_grey.png",

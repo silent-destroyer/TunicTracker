@@ -5380,7 +5380,9 @@
                 ]
               }
             ]
-          },
+          }
+        ]
+      },
       {
         "name": "The Quarry",
         "access_rules": [],
