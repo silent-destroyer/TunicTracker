@@ -929,46 +929,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Hourglass Cave Autobolts",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2700,
-                "y": 2500,
-                "size": 65
-              },
-              {
-                "map": "overworld",
-                "x": 733,
-                "y": 1185,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Hourglass Cave - Autobolt 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|autobolt"
-                ]
-              },
-              {
-                "name": "Hourglass Cave - Autobolt 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|autobolt"
-                ]
-              },
-              {
-                "name": "Hourglass Cave - Autobolt 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|autobolt"
-                ]
-              }
-            ]
           }
         ]
       },

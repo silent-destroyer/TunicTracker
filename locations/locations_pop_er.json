@@ -9812,6 +9812,36 @@
               "sign_breaker",
               "stick,firesword"
             ]
+          },
+          {
+            "name": "Hourglass Cave - Autobolt 1",
+            "item_count": 1,
+            "chest_opened_img": "images/souls/enemy_soul_grey.png",
+            "chest_unopened_img": "images/souls/enemy_soul.png",
+            "access_rules": [
+              "$enemy_access|autobolt"
+            ],
+            "visibility_rules": "enemy_drop_shuffle"
+          },
+          {
+            "name": "Hourglass Cave - Autobolt 3",
+            "item_count": 1,
+            "chest_opened_img": "images/souls/enemy_soul_grey.png",
+            "chest_unopened_img": "images/souls/enemy_soul.png",
+            "access_rules": [
+              "$enemy_access|autobolt"
+            ],
+            "visibility_rules": "enemy_drop_shuffle"
+          },
+          {
+            "name": "Hourglass Cave - Autobolt 2",
+            "item_count": 1,
+            "chest_opened_img": "images/souls/enemy_soul_grey.png",
+            "chest_unopened_img": "images/souls/enemy_soul.png",
+            "access_rules": [
+              "$enemy_access|autobolt"
+            ],
+            "visibility_rules": "enemy_drop_shuffle"
           }
         ]
       },
