@@ -6333,30 +6333,6 @@
             ]
           },
           {
-            "name": "Boss Scavenger",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 500,
-                "y": 1500,
-                "size": 65
-              },
-              {
-                "map": "ziggurat",
-                "x": 2233,
-                "y": 1222,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Rooted Ziggurat Lower - Defeat Boss Scavenger",
-                "item_count": 1,
-                "access_rules": []
-              }
-            ]
-          },
-          {
             "name": "Left Side Enemies",
             "map_locations": [
               {
