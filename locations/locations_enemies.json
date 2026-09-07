@@ -2932,30 +2932,6 @@
             ]
           },
           {
-            "name": "Garden Knight",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 900,
-                "y": 2850,
-                "size": 65
-              },
-              {
-                "map": "west_gardens",
-                "x": 696,
-                "y": 46,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "West Garden - [North] Defeat Garden Knight",
-                "item_count": 1,
-                "access_rules": []
-              }
-            ]
-          },
-          {
             "name": "Enemies Above Dagger House",
             "map_locations": [
               {
