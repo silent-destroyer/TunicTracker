@@ -5859,7 +5859,7 @@
                 "hosted_item": "librarian"
               },
               {
-                "name": "Enemy Drop",
+                "name": "Librarian - Defeat Librarian",
                 "visibility_rules": "enemy_drop_shuffle",
                 "chest_unopened_img": "images/souls/enemy_soul.png",
                 "chest_opened_img": "images/souls/enemy_soul_grey.png",

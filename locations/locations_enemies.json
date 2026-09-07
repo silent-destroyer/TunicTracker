@@ -5381,32 +5381,6 @@
               }
             ]
           },
-          {
-            "name": "Librarian",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1300,
-                "y": 3500,
-                "size": 65
-              },
-              {
-                "map": "library",
-                "x": 1782,
-                "y": 23,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Librarian - Defeat Librarian",
-                "item_count": 1,
-                "access_rules": []
-              }
-            ]
-          }
-        ]
-      },
       {
         "name": "The Quarry",
         "access_rules": [],
