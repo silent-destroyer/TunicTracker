@@ -2937,6 +2937,16 @@
                   "dagger,icerod,orb,staff,$enemy_soul_access|blobs"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "East Forest - Ice Grapple Blob",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "$enemy_access|blob_ice_grapple"
+                ],
+                "visibility_rules": "enemy_drop_shuffle"
               }
             ]
           },

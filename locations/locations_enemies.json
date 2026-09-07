@@ -1721,32 +1721,6 @@
             ]
           },
           {
-            "name": "Ice Grapple Blob",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3900,
-                "y": 2800,
-                "size": 65
-              },
-              {
-                "map": "east_forest",
-                "x": 1385,
-                "y": 1258,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "East Forest - Ice Grapple Blob",
-                "item_count": 1,
-                "access_rules": [
-                  "@Lower Forest,$enemy_access|blob_ice_grapple"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Zombie Foxes Near Grave",
             "map_locations": [
               {
