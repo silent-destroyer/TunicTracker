@@ -2045,6 +2045,17 @@
                   "cross"
                 ],
                 "item_count": 1
+              },
+              
+              {
+                "name": "Patrol Cave - Patrolling Rudeling",
+                "item_count": 1,
+                "chest_unopened_img": "images/souls/enemy_soul.png",
+                "chest_opened_img": "images/souls/enemy_soul_grey.png",
+                "access_rules": [
+                  "@Shop,$enemy_access|rudeling_patrol"
+                ],
+                "visibility_rules": "enemy_drop_shuffle"
               }
             ]
           }

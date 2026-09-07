@@ -964,32 +964,6 @@
             ]
           },
           {
-            "name": "Patrolling Rudeling",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 2700,
-                "y": 2500,
-                "size": 65
-              },
-              {
-                "map": "overworld",
-                "x": 1761,
-                "y": 358,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Patrol Cave - Patrolling Rudeling",
-                "item_count": 1,
-                "access_rules": [
-                  "@Patrol Cave,@Shop,$enemy_access|rudeling_patrol"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Hourglass Cave Autobolts",
             "map_locations": [
               {
