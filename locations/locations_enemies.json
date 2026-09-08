@@ -12,6 +12,9 @@
         "children": [
           {
             "name": "Central Overworld Blobs",
+            "access_rules": [
+              "@Overworld,$enemy_access|blob"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -29,66 +32,39 @@
             "sections": [
               {
                 "name": "Overworld - [Central] Big Blob Near Checkpoint",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Central] Blob Near Checkpoint 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Central] Blob Near Checkpoint 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Central] Blob Near Checkpoint 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Central] Blob Near Ruined Passage Door",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Central] Blob Near Cube Cave 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Central] Blob Near Cube Cave 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Central] Blob Near Cube Cave 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Central] Big Blob On Spawn Bridge",
                 "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
@@ -198,6 +174,9 @@
           },
           {
             "name": "Northeast Blobs Near Flowers",
+            "access_rules": [
+              "@Overworld,$enemy_access|blob"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -215,45 +194,27 @@
             "sections": [
               {
                 "name": "Overworld - [Northeast] Big Blob Near Flowers 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Northeast] Big Blob Near Flowers 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Northeast] Big Blob Near Flowers 5",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Northeast] Big Blob Near Flowers 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Northeast] Big Blob Near Flowers 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Northeast] Big Blob Near Extending Bridge",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -335,6 +296,9 @@
           },
           {
             "name": "Blobs Near Pots",
+            "access_rules": [
+              "@Overworld,$enemy_access|blob"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -352,31 +316,19 @@
             "sections": [
               {
                 "name": "Overworld - [East] Blob Near Pots 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [East] Blob Near Pots 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [East] Blob Near Pots 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [East] Blob Near Pots 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|blob"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -512,6 +464,9 @@
           },
           {
             "name": "Guard Captain",
+            "access_rules": [
+              "@Upper Overworld,$enemy_access|guard_captain"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -529,10 +484,7 @@
             "sections": [
               {
                 "name": "Overworld - [Northwest] Guard Captain Near Telescope",
-                "item_count": 1,
-                "access_rules": [
-                  "@Upper Overworld,$enemy_access|guard_captain"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -651,6 +603,9 @@
           },
           {
             "name": "Big Fleemer",
+            "access_rules": [
+              "@Overworld,$enemy_access|fleemer_big"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -669,15 +624,15 @@
               {
                 "name": "Overworld - [Southeast] Big Fleemer Near Holy Cross Door",
                 "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|fleemer_big"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
           },
           {
             "name": "Enemies Above Patrol Cave",
+            "access_rules": [
+              "@Overworld above Patrol Cave,$enemy_access|hedgehog"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -695,17 +650,11 @@
             "sections": [
               {
                 "name": "Overworld - [Northeast] Hedgehog Above Patrol Cave 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld above Patrol Cave,$enemy_access|hedgehog"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Northeast] Hedgehog Above Patrol Cave 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld above Patrol Cave,$enemy_access|hedgehog"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -814,6 +763,9 @@
           },
           {
             "name": "Phrends Near Waterfall",
+            "access_rules": [
+              "@Overworld,$enemy_access|phrend"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -831,17 +783,11 @@
             "sections": [
               {
                 "name": "Overworld - [Northwest] Phrend Near Waterfall 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|phrend"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Overworld - [Northwest] Phrend Near Waterfall 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld,$enemy_access|phrend"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -880,6 +826,9 @@
           },
           {
             "name": "Autobolt In Tunnel",
+            "access_rules": [
+              "@Overworld Tunnel Turret,$enemy_access|autobolt"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -897,15 +846,15 @@
             "sections": [
               {
                 "name": "Overworld - [Southwest] Autobolt In Tunnel",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld Tunnel Turret,$enemy_access|autobolt"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Autobolt On Beach",
+            "access_rules": [
+              "@Overworld Beach,$enemy_access|autobolt"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -923,10 +872,7 @@
             "sections": [
               {
                 "name": "Overworld - [Southwest] Autobolt On Beach",
-                "item_count": 1,
-                "access_rules": [
-                  "@Overworld Beach,$enemy_access|autobolt"
-                ]
+                "item_count": 1
               }
             ]
           }
@@ -1028,6 +974,9 @@
           },
           {
             "name": "Guardhouse 1 Blobs",
+            "access_rules": [
+              "@Guard House 1 West,$enemy_access|blob"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1045,59 +994,35 @@
             "sections": [
               {
                 "name": "Guardhouse 1 - Blob 8",
-                "item_count": 1,
-                "access_rules": [
-                  "@Guard House 1 West,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Guardhouse 1 - Blob 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Guard House 1 West,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Guardhouse 1 - Blob 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Guard House 1 West,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Guardhouse 1 - Blob 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Guard House 1 West,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Guardhouse 1 - Blob 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Guard House 1 West,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Guardhouse 1 - Blob 6",
-                "item_count": 1,
-                "access_rules": [
-                  "@Guard House 1 West,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Guardhouse 1 - Blob 7",
-                "item_count": 1,
-                "access_rules": [
-                  "@Guard House 1 West,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Guardhouse 1 - Blob 5",
-                "item_count": 1,
-                "access_rules": [
-                  "@Guard House 1 West,$enemy_access|blob"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -1157,6 +1082,9 @@
           },
           {
             "name": "Forest Belltower Blobs",
+            "access_rules": [
+              "@Forest Belltower Main,$enemy_access|blob"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1174,38 +1102,23 @@
             "sections": [
               {
                 "name": "Forest Belltower - Blob 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Forest Belltower Main,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Forest Belltower - Blob 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Forest Belltower Main,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Forest Belltower - Blob 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Forest Belltower Main,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Forest Belltower - Blob 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Forest Belltower Main,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Forest Belltower - Blob Near Ladder",
-                "item_count": 1,
-                "access_rules": [
-                  "@Forest Belltower Main,$enemy_access|blob"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -1353,6 +1266,9 @@
           },
           {
             "name": "Rudelings Above Checkpoint",
+            "access_rules": [
+              "@East Forest,$enemy_access|rudeling"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1370,46 +1286,34 @@
             "sections": [
               {
                 "name": "East Forest - Rudeling Above Checkpoint",
-                "item_count": 1,
-                "access_rules": [
-                  "@East Forest,$enemy_access|rudeling"
-                ]
+                "item_count": 1
               },
               {
                 "name": "East Forest - Rudeling Near Obscured Chest 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@East Forest,$enemy_access|rudeling"
-                ]
+                "item_count": 1
               },
               {
                 "name": "East Forest - Rudeling Near Obscured Chest 2",
                 "item_count": 1,
-                "access_rules": [
-                  "@East Forest,$enemy_access|rudeling"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               },
               {
                 "name": "East Forest - Rudeling Near Obscured Chest 3",
                 "item_count": 1,
-                "access_rules": [
-                  "@East Forest,$enemy_access|rudeling"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               },
               {
                 "name": "East Forest - Rudeling Near Obscured Chest 4",
                 "item_count": 1,
-                "access_rules": [
-                  "@East Forest,$enemy_access|rudeling"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
           },
           {
             "name": "Hedgehogs Near Dancing Fox",
+            "access_rules": [
+              "@East Forest Dance Fox Spot,$enemy_access|hedgehog"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1427,22 +1331,19 @@
             "sections": [
               {
                 "name": "East Forest - Hedgehog Near Dance Fox Spot 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@East Forest Dance Fox Spot,$enemy_access|hedgehog"
-                ]
+                "item_count": 1
               },
               {
                 "name": "East Forest - Hedgehog Near Dance Fox Spot 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@East Forest Dance Fox Spot,$enemy_access|hedgehog"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Rudeling Near Guardhouse Gate",
+            "access_rules": [
+              "@East Forest,$enemy_access|rudeling"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1460,15 +1361,15 @@
             "sections": [
               {
                 "name": "East Forest - Rudeling Facing Guardhouse Gate",
-                "item_count": 1,
-                "access_rules": [
-                  "@East Forest,$enemy_access|rudeling"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Rudelings Near Gate Switch",
+            "access_rules": [
+              "@East Forest,$enemy_access|rudeling"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1486,22 +1387,19 @@
             "sections": [
               {
                 "name": "East Forest - Rudeling Near Gate Switch 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@East Forest,$enemy_access|rudeling"
-                ]
+                "item_count": 1
               },
               {
                 "name": "East Forest - Rudeling Near Gate Switch 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@East Forest,$enemy_access|rudeling"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Guardhouse 1 Hedgehog",
+            "access_rules": [
+              "@Guard House 1 West,$enemy_access|hedgehog"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1519,15 +1417,15 @@
             "sections": [
               {
                 "name": "Guardhouse 1 - Hedgehog",
-                "item_count": 1,
-                "access_rules": [
-                  "@Guard House 1 West,$enemy_access|hedgehog"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Rudelings Near Broken Obelisk",
+            "access_rules": [
+              "@Lower Forest,$enemy_access|rudeling"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1545,22 +1443,19 @@
             "sections": [
               {
                 "name": "East Forest - [Lower] Rudeling Near Broken Obelisk 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Lower Forest,$enemy_access|rudeling"
-                ]
+                "item_count": 1
               },
               {
                 "name": "East Forest - [Lower] Rudeling Near Broken Obelisk 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Lower Forest,$enemy_access|rudeling"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Spiders",
+            "access_rules": [
+              "@Lower Forest,$enemy_access|spider"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1578,45 +1473,27 @@
             "sections": [
               {
                 "name": "East Forest - [Lower] Spider Behind Top Left Tree",
-                "item_count": 1,
-                "access_rules": [
-                  "@Lower Forest,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "East Forest - [Lower] Spider Behind Bottom Left Tree",
-                "item_count": 1,
-                "access_rules": [
-                  "@Lower Forest,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "East Forest - [Lower] Spider Behind Bottom Right Tree",
-                "item_count": 1,
-                "access_rules": [
-                  "@Lower Forest,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "East Forest - [Lower] Spider Behind Top Right Tree",
-                "item_count": 1,
-                "access_rules": [
-                  "@Lower Forest,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "East Forest - [Lower] Spider Near Grapple Hook",
-                "item_count": 1,
-                "access_rules": [
-                  "@Lower Forest,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "East Forest - [Lower] Big Spider In Clearing",
                 "item_count": 1,
-                "access_rules": [
-                  "@Lower Forest,$enemy_access|spider"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
@@ -1658,6 +1535,9 @@
           },
           {
             "name": "Big Spider Near Ladders",
+            "access_rules": [
+              "@East Forest,$enemy_access|spider"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1676,9 +1556,6 @@
               {
                 "name": "East Forest - Big Spider Atop Ladders",
                 "item_count": 1,
-                "access_rules": [
-                  "@East Forest,$enemy_access|spider"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
@@ -1893,6 +1770,9 @@
           },
           {
             "name": "Third Room Tentacles",
+            "access_rules": [
+              "@Beneath the Well Main,$enemy_access|tentacle"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1910,36 +1790,27 @@
             "sections": [
               {
                 "name": "Beneath the Well - [Third Room] Tentacle In Water 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|tentacle"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Third Room] Tentacle In Water 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|tentacle"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Third Room] Tentacle In Water 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|tentacle"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Third Room] Tentacle In Water 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|tentacle"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Side Room Phrends",
+            "access_rules": [
+              "@Beneath the Well Back,$enemy_access|phrend"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1957,71 +1828,47 @@
             "sections": [
               {
                 "name": "Beneath the Well - [Side Room] Phrend Near Chest 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Back,$enemy_access|phrend"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Side Room] Phrend Near Chest 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Back,$enemy_access|phrend"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Side Room] Phrend Near Chest 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Back,$enemy_access|phrend"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Side Room] Phrend Near Chest 5",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Back,$enemy_access|phrend"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Side Room] Phrend Near Chest 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Back,$enemy_access|phrend"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Side Room] Phrend Near Chest 6",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Back,$enemy_access|phrend"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Side Room] Phrend In Corner 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Back,$enemy_access|phrend"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Side Room] Phrend In Corner 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Back,$enemy_access|phrend"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Side Room] Phrend In Corner 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Back,$enemy_access|phrend"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Back Corridor Slorms",
+            "access_rules": [
+              "@Beneath the Well Main,$enemy_access|slorm"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -2039,60 +1886,42 @@
             "sections": [
               {
                 "name": "Beneath the Well - [Back Corridor] Slorm 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|slorm"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Back Corridor] Slorm 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|slorm"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Back Corridor] Slorm 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|slorm"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Back Corridor] Slorm 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|slorm"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Well - [Back Corridor] Slorm 5",
                 "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|slorm"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               },
               {
                 "name": "Beneath the Well - [Back Corridor] Slorm 6",
                 "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|slorm"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               },
               {
                 "name": "Beneath the Well - [Back Corridor] Slorm 7",
                 "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|slorm"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
           },
           {
             "name": "Autobolt Behind Three Barrels",
+            "access_rules": [
+              "@Beneath the Well Main,$enemy_access|autobolt"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -2110,15 +1939,15 @@
             "sections": [
               {
                 "name": "Beneath the Well - [Third Room] Autobolt Behind Three Barrels",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|autobolt"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Autobolt Near Back Corridor",
+            "access_rules": [
+              "@Beneath the Well Main,$enemy_access|autobolt"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -2137,15 +1966,15 @@
               {
                 "name": "Beneath the Well - [Third Room] Autobolt Near Back Corridor",
                 "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|autobolt"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
           },
           {
             "name": "Shield Rudeling Near Exit Doorway",
+            "access_rules": [
+              "@Beneath the Well Main,$enemy_access|rudeling_shield"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -2163,10 +1992,7 @@
             "sections": [
               {
                 "name": "Beneath the Well - [Third Room] Shield Rudeling Near Exit Doorway",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Well Main,$enemy_access|rudeling_shield"
-                ]
+                "item_count": 1
               }
             ]
           }
@@ -2178,6 +2004,9 @@
         "children": [
           {
             "name": "Laser Room Traps",
+            "access_rules": [
+              "@Dark Tomb Main,$enemy_access|laser_trap"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -2195,87 +2024,51 @@
             "sections": [
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 8",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 11",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 9",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 5",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 6",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 10",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 12",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 7",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Laser Room Hedgehog Trap 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|laser_trap"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -2390,6 +2183,9 @@
           },
           {
             "name": "Spike Maze Fleemers",
+            "access_rules": [
+              "@Dark Tomb Main,$enemy_access|fleemer"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -2407,38 +2203,23 @@
             "sections": [
               {
                 "name": "Dark Tomb - Spike Maze Fleemer 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|fleemer"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Spike Maze Fleemer 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|fleemer"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Spike Maze Fleemer 5",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|fleemer"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Spike Maze Fleemer 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|fleemer"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Dark Tomb - Spike Maze Fleemer 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|fleemer"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -2562,6 +2343,9 @@
           },
           {
             "name": "Fleemer Quartet",
+            "access_rules": [
+              "@Dark Tomb Main,$enemy_access|fleemer"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -2580,33 +2364,21 @@
               {
                 "name": "Dark Tomb - Fleemer Quartet 2",
                 "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|fleemer"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               },
               {
                 "name": "Dark Tomb - Fleemer Quartet 4",
                 "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|fleemer"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               },
               {
                 "name": "Dark Tomb - Fleemer Quartet 3",
                 "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|fleemer"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               },
               {
                 "name": "Dark Tomb - Fleemer Quartet 1",
                 "item_count": 1,
-                "access_rules": [
-                  "@Dark Tomb Main,$enemy_access|fleemer"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
@@ -2865,6 +2637,9 @@
           },
           {
             "name": "Central Lowland Enemies",
+            "access_rules": [
+              "@West Garden after Terry,$enemy_access|fairy"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -2882,23 +2657,20 @@
             "sections": [
               {
                 "name": "West Garden - [Central Lowlands] Tower In Water Fairy 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@West Garden after Terry,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "West Garden - [Central Lowlands] Tower In Water Fairy 2",
                 "item_count": 1,
-                "access_rules": [
-                  "@West Garden after Terry,$enemy_access|fairy"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
           },
           {
             "name": "Terry",
+            "access_rules": [
+              "@West Garden after Terry,$enemy_access|chompignom"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -2916,17 +2688,11 @@
             "sections": [
               {
                 "name": "West Garden - [Northwest] Chompignom Near Fountain (Terry)",
-                "item_count": 1,
-                "access_rules": [
-                  "@West Garden after Terry,$enemy_access|chompignom"
-                ]
+                "item_count": 1
               },
               {
                 "name": "West Garden - [Northwest] Void Chompignom Near Fountain",
                 "item_count": 1,
-                "access_rules": [
-                  "@West Garden after Terry,$enemy_access|chompignom"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
@@ -2981,6 +2747,9 @@
           },
           {
             "name": "Zombie Fox",
+            "access_rules": [
+              "@West Garden before Terry,$enemy_access|fox_enemy_zombie"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -2999,9 +2768,6 @@
               {
                 "name": "West Garden - Zombie Fox On Grave",
                 "item_count": 1,
-                "access_rules": [
-                  "@West Garden before Terry,$enemy_access|fox_enemy_zombie"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
@@ -3014,6 +2780,9 @@
         "children": [
           {
             "name": "Corner Room Spiders",
+            "access_rules": [
+              "@Beneath the Vault Main,$enemy_access|spider"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -3031,22 +2800,19 @@
             "sections": [
               {
                 "name": "Beneath the Fortress - Corner Room Big Spider",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Fortress - Corner Room Spider",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Waterfall Room Spiders",
+            "access_rules": [
+              "@Beneath the Vault Main,$enemy_access|spider"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -3064,58 +2830,40 @@
             "sections": [
               {
                 "name": "Beneath the Fortress - Waterfall Room Spider 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Fortress - Waterfall Room Big Spider 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Fortress - Dark Hallway Spider 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Fortress - Waterfall Room Spider 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Fortress - Spider Behind Waterfall 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Fortress - Spider Behind Waterfall 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Beneath the Fortress - Waterfall Room Big Spider 2",
                 "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
           },
           {
             "name": "Spider From Entrance",
+            "access_rules": [
+              "@Beneath the Vault Main,$enemy_access|spider"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -3133,10 +2881,7 @@
             "sections": [
               {
                 "name": "Beneath the Fortress - Spider From Entrance",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -3197,6 +2942,9 @@
           },
           {
             "name": "Dark Hallway Spider",
+            "access_rules": [
+              "@Beneath the Vault Main,$enemy_access|spider"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -3214,10 +2962,7 @@
             "sections": [
               {
                 "name": "Beneath the Fortress - Dark Hallway Spider 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Beneath the Vault Main,$enemy_access|spider"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -3344,6 +3089,9 @@
         "children": [
           {
             "name": "East Shortcut Lower Enemies",
+            "access_rules": [
+              "@Fortress East Shortcut Lower,$enemy_access|blob"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -3361,31 +3109,19 @@
             "sections": [
               {
                 "name": "Fortress East Shortcut - [Lower] Blob 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Fortress East Shortcut Lower,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Fortress East Shortcut - [Lower] Blob 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Fortress East Shortcut Lower,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Fortress East Shortcut - [Lower] Blob 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Fortress East Shortcut Lower,$enemy_access|blob"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Fortress East Shortcut - [Lower] Blob 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Fortress East Shortcut Lower,$enemy_access|blob"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -3610,6 +3346,9 @@
           },
           {
             "name": "West Wing Baby Slorms",
+            "access_rules": [
+              "@Eastern Vault Fortress,$enemy_access|baby_slorm"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -3627,29 +3366,23 @@
             "sections": [
               {
                 "name": "Eastern Vault Fortress - [West Wing] Side Room Baby Slorm 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Eastern Vault Fortress,$enemy_access|baby_slorm"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Eastern Vault Fortress - [West Wing] Side Room Baby Slorm 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Eastern Vault Fortress,$enemy_access|baby_slorm"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Eastern Vault Fortress - [West Wing] Side Room Baby Slorm 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Eastern Vault Fortress,$enemy_access|baby_slorm"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "West Wing Laser Traps",
+            "access_rules": [
+              "@Eastern Vault Fortress,$enemy_access|laser_trap"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -3668,23 +3401,20 @@
               {
                 "name": "Eastern Vault Fortress - [West Wing] Hedgehog Trap Near Stairs 2",
                 "item_count": 1,
-                "access_rules": [
-                  "@Eastern Vault Fortress,$enemy_access|laser_trap"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               },
               {
                 "name": "Eastern Vault Fortress - [West Wing] Hedgehog Trap Near Stairs 1",
                 "item_count": 1,
-                "access_rules": [
-                  "@Eastern Vault Fortress,$enemy_access|laser_trap"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
           },
           {
             "name": "Zombie Fox Near Grave",
+            "access_rules": [
+              "@Fortress Grave Path by Grave,$enemy_access|fox_enemy_zombie"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -3703,9 +3433,6 @@
               {
                 "name": "Fortress Grave Path - Zombie Fox Near Grave",
                 "item_count": 1,
-                "access_rules": [
-                  "@Fortress Grave Path by Grave,$enemy_access|fox_enemy_zombie"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
@@ -3927,6 +3654,9 @@
           },
           {
             "name": "West Sunken Tower Fairies",
+            "access_rules": [
+              "@Ruined Atoll,$enemy_access|fairy"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -3944,29 +3674,23 @@
             "sections": [
               {
                 "name": "Ruined Atoll - [West] Sunken Tower Fairy 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [West] Sunken Tower Fairy 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [West] Sunken Tower Fairy 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|fairy"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Southeast Fuse Fairies",
+            "access_rules": [
+              "@Ruined Atoll,$enemy_access|fairy"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -3984,31 +3708,19 @@
             "sections": [
               {
                 "name": "Ruined Atoll - [Southeast] Fairy Guarding Fuse 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [Southeast] Fairy Guarding Fuse 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [Southeast] Fairy Guarding Fuse 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [Southeast] Fairy Guarding Fuse 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|fairy"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -4088,6 +3800,9 @@
           },
           {
             "name": "Husher Guarding Chest",
+            "access_rules": [
+              "@Ruined Atoll,$enemy_access|husher"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4105,10 +3820,7 @@
             "sections": [
               {
                 "name": "Ruined Atoll - [North] Husher Perched On Chest",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|husher"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -4154,6 +3866,9 @@
           },
           {
             "name": "Hushers Guarding Gate",
+            "access_rules": [
+              "@Ruined Atoll,$enemy_access|husher"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4171,22 +3886,19 @@
             "sections": [
               {
                 "name": "Ruined Atoll - [South] Husher Guarding Gate 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|husher"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [South] Husher Guarding Gate 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|husher"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Lower Entrance Plover",
+            "access_rules": [
+              "@Ruined Atoll Lower Entry Area,$enemy_access|plover"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4204,10 +3916,7 @@
             "sections": [
               {
                 "name": "Ruined Atoll - [North] Plover Near Lower Entrance",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll Lower Entry Area,$enemy_access|plover"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -4289,6 +3998,9 @@
           },
           {
             "name": "East Path Enemies",
+            "access_rules": [
+              "@Ruined Atoll,$enemy_access|crabbit"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4306,24 +4018,15 @@
             "sections": [
               {
                 "name": "Ruined Atoll - [East] Crabbit By Right Stairs 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|crabbit"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [East] Crabbit By Right Stairs 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|crabbit"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [East] Crabbit By Right Stairs 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|crabbit"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -4391,6 +4094,9 @@
           },
           {
             "name": "Ruined House Crabs",
+            "access_rules": [
+              "@Ruined Atoll,$enemy_access|crabbit"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4408,29 +4114,23 @@
             "sections": [
               {
                 "name": "Ruined Atoll - [East] Past Ruined House Crabbit 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|crabbit"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [East] Past Ruined House Crabbit 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|crabbit"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [East] Past Ruined House Crabbit 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|crabbit"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Ruined House Slorm",
+            "access_rules": [
+              "@Ruined Atoll,$enemy_access|slorm"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4448,10 +4148,7 @@
             "sections": [
               {
                 "name": "Ruined Atoll - [East] Burrowed Slorm By Ruined House",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|slorm"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -4642,6 +4339,9 @@
           },
           {
             "name": "South Sunken Tower Fairies",
+            "access_rules": [
+              "@Ruined Atoll,$enemy_access|fairy"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4659,17 +4359,11 @@
             "sections": [
               {
                 "name": "Ruined Atoll - [South] Sunken Tower Fairy 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Ruined Atoll - [South] Sunken Tower Fairy 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Ruined Atoll,$enemy_access|fairy"
-                ]
+                "item_count": 1
               }
             ]
           }
@@ -4714,6 +4408,9 @@
           },
           {
             "name": "Hot Tub Frogs",
+            "access_rules": [
+              "@Frog's Domain Main,$enemy_access|frog_small"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4731,29 +4428,23 @@
             "sections": [
               {
                 "name": "Frog's Domain - Hot Tub Frog 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog_small"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Frog's Domain - Hot Tub Frog 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog_small"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Frog's Domain - Hot Tub Frog 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog_small"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Side Room Frogs",
+            "access_rules": [
+              "@Frog's Domain Main,$enemy_access|frog_small"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4771,29 +4462,23 @@
             "sections": [
               {
                 "name": "Frog's Domain - Side Room Frog 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog_small"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Frog's Domain - Side Room Frog 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog_small"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Frog's Domain - Side Room Frog 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog_small"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Hallway Frog",
+            "access_rules": [
+              "@Frog's Domain Main,$enemy_access|frog"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4811,10 +4496,7 @@
             "sections": [
               {
                 "name": "Frog's Domain - Frog Patrolling Hallway",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -4918,6 +4600,9 @@
           },
           {
             "name": "Main Room Lower Frogs",
+            "access_rules": [
+              "@Frog's Domain Main,$enemy_access|frog_small"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -4935,24 +4620,15 @@
             "sections": [
               {
                 "name": "Frog's Domain - Main Room Lower Small Frog 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog_small"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Frog's Domain - Main Room Lower Small Frog 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog_small"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Frog's Domain - Main Room Lower Small Frog 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog_small"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -4999,6 +4675,9 @@
           },
           {
             "name": "Main Room Baby Slorms",
+            "access_rules": [
+              "@Frog's Domain Main,$enemy_access|baby_slorm"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5016,31 +4695,19 @@
             "sections": [
               {
                 "name": "Frog's Domain - Main Room Baby Slorm Jail 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|baby_slorm"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Frog's Domain - Main Room Baby Slorm Jail 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|baby_slorm"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Frog's Domain - Main Room Baby Slorm Jail 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|baby_slorm"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Frog's Domain - Main Room Baby Slorm Jail 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|baby_slorm"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -5246,6 +4913,9 @@
           },
           {
             "name": "Escape Room Autobolt",
+            "access_rules": [
+              "@Frog's Domain Back,$enemy_access|autobolt_gap"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5263,15 +4933,15 @@
             "sections": [
               {
                 "name": "Frog's Domain - Escape Room Autobolt",
-                "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Back,$enemy_access|autobolt_gap"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Side Room Secret Frog",
+            "access_rules": [
+              "@Frog's Domain Main,$enemy_access|frog_secret"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5290,9 +4960,6 @@
               {
                 "name": "Frog's Domain - Side Room Secret Frog",
                 "item_count": 1,
-                "access_rules": [
-                  "@Frog's Domain Main,$enemy_access|frog_secret"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
@@ -5305,6 +4972,9 @@
         "children": [
           {
             "name": "Right Beefboy",
+            "access_rules": [
+              "@Library Hall,$enemy_access|beefboy"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5322,15 +4992,15 @@
             "sections": [
               {
                 "name": "Library Hall - Right Beefboy",
-                "item_count": 1,
-                "access_rules": [
-                  "@Library Hall,$enemy_access|beefboy"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Left Beefboy",
+            "access_rules": [
+              "@Library Hall,$enemy_access|beefboy"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5348,15 +5018,15 @@
             "sections": [
               {
                 "name": "Library Hall - Left Beefboy",
-                "item_count": 1,
-                "access_rules": [
-                  "@Library Hall,$enemy_access|beefboy"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Coffee Table",
+            "access_rules": [
+              "@Library Hall,$enemy_access|administrator_coffee"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5374,10 +5044,7 @@
             "sections": [
               {
                 "name": "Library Hall - Administrator Coffee Table",
-                "item_count": 1,
-                "access_rules": [
-                  "@Library Hall,$enemy_access|administrator_coffee"
-                ]
+                "item_count": 1
               }
             ]
           }
@@ -5456,6 +5123,9 @@
           },
           {
             "name": "East Highest Ladder Scavenger",
+            "access_rules": [
+              "@Quarry,$enemy_access|scavenger"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5473,15 +5143,15 @@
             "sections": [
               {
                 "name": "Quarry - [East] Highest Ladder Scavenger Sniper",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Sniper Near Obscured Chest",
+            "access_rules": [
+              "@Quarry,$enemy_access|scavenger"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5499,15 +5169,15 @@
             "sections": [
               {
                 "name": "Quarry - [East] Scavenger Sniper Near Obscured Chest",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Middle Ledge Scavengers",
+            "access_rules": [
+              "@Quarry,$enemy_access|scavenger"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5525,17 +5195,11 @@
             "sections": [
               {
                 "name": "Quarry - [Central] Scavenger Sniper Looking Down",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Quarry - [Central] Scavenger Miner Hiding In Wall",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -5588,6 +5252,9 @@
           },
           {
             "name": "Shooting Range Scavengers",
+            "access_rules": [
+              "@Quarry,$enemy_access|scavenger"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5605,29 +5272,23 @@
             "sections": [
               {
                 "name": "Quarry - [West] Shooting Range Scavenger Sniper 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Quarry - [West] Shooting Range Scavenger Sniper 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Quarry - [West] Shooting Range Scavenger Sniper 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Lower Quarry Scavenger Near Boxes",
+            "access_rules": [
+              "@Quarry,$enemy_access|scavenger_support"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5645,10 +5306,7 @@
             "sections": [
               {
                 "name": "Quarry - [West] Lower Quarry Scavenger Near Boxes",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger_support"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -5694,6 +5352,9 @@
           },
           {
             "name": "Lower Scaffolding Scavengers",
+            "access_rules": [
+              "@Quarry,$enemy_access|scavenger"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5711,22 +5372,19 @@
             "sections": [
               {
                 "name": "Quarry - [Lowlands] Scavenger Sniper On Scaffolding 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Quarry - [Lowlands] Scavenger Sniper On Scaffolding 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Lower Scavenger On Pillar",
+            "access_rules": [
+              "@Even Lower Quarry,$enemy_access|scavenger_sniper"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5744,10 +5402,7 @@
             "sections": [
               {
                 "name": "Quarry - [Lowlands] Scavenger Sniper On Pillar",
-                "item_count": 1,
-                "access_rules": [
-                  "@Even Lower Quarry,$enemy_access|scavenger_sniper"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -5908,6 +5563,9 @@
           },
           {
             "name": "West Path Scavenger Trio",
+            "access_rules": [
+              "@Quarry,$enemy_access|scavenger"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -5925,24 +5583,15 @@
             "sections": [
               {
                 "name": "Quarry - [West] Scavenger Miner Trio 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Quarry - [West] Scavenger Miner Trio 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Quarry - [West] Scavenger Miner Trio 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Quarry,$enemy_access|scavenger"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -6122,6 +5771,9 @@
           },
           {
             "name": "Tower Administrator",
+            "access_rules": [
+              "@Rooted Ziggurat Upper Front,$enemy_access|administrator"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6139,17 +5791,11 @@
             "sections": [
               {
                 "name": "Rooted Ziggurat Upper - Administrator",
-                "item_count": 1,
-                "access_rules": [
-                  "@Rooted Ziggurat Upper Front,$enemy_access|administrator"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Rooted Ziggurat Upper - Administrator 2nd Phase",
-                "item_count": 1,
-                "access_rules": [
-                  "@Rooted Ziggurat Upper Front,$enemy_access|administrator"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -6216,6 +5862,9 @@
           },
           {
             "name": "Fairy Swarm",
+            "access_rules": [
+              "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6233,43 +5882,31 @@
             "sections": [
               {
                 "name": "Rooted Ziggurat Upper - Fairy Swarm Fairy 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Rooted Ziggurat Upper - Fairy Swarm Fairy 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Rooted Ziggurat Upper - Fairy Swarm Fairy 5",
-                "item_count": 1,
-                "access_rules": [
-                  "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Rooted Ziggurat Upper - Fairy Swarm Fairy 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Rooted Ziggurat Upper - Fairy Swarm Fairy 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Fairies In Wall",
+            "access_rules": [
+              "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6287,24 +5924,15 @@
             "sections": [
               {
                 "name": "Rooted Ziggurat Upper - Wall Between Stairs Fairy 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Rooted Ziggurat Upper - Wall Between Stairs Fairy 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Rooted Ziggurat Upper - Wall Between Stairs Fairy 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Rooted Ziggurat Upper Front,$enemy_access|fairy"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -6452,6 +6080,9 @@
         "children": [
           {
             "name": "Gunslingers Near Checkpoint",
+            "access_rules": [
+              "@Swamp Front,$enemy_access|gunslinger"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6469,17 +6100,11 @@
             "sections": [
               {
                 "name": "Swamp - [Entrance] Left Gunslinger",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Front,$enemy_access|gunslinger"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Swamp - [Entrance] Right Gunslinger",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Front,$enemy_access|gunslinger"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -6546,6 +6171,9 @@
           },
           {
             "name": "Tentacles Near Island",
+            "access_rules": [
+              "@Swamp Front,$enemy_access|tentacle"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6563,24 +6191,15 @@
             "sections": [
               {
                 "name": "Swamp - [South Graveyard] Island Tentacle 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Front,$enemy_access|tentacle"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Swamp - [South Graveyard] Island Tentacle 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Front,$enemy_access|tentacle"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Swamp - [South Graveyard] Island Tentacle 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Front,$enemy_access|tentacle"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -6619,6 +6238,9 @@
           },
           {
             "name": "Outside Cathedral Gunslinger",
+            "access_rules": [
+              "@Swamp Mid,$enemy_access|gunslinger"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6636,15 +6258,15 @@
             "sections": [
               {
                 "name": "Swamp - [Outside Cathedral] Gunslinger",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|gunslinger"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Fleemers Near Checkpoint",
+            "access_rules": [
+              "@Swamp Front,$enemy_access|fleemer"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6662,22 +6284,19 @@
             "sections": [
               {
                 "name": "Swamp - [Entrance] Fleemer By Fence 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Front,$enemy_access|fleemer"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Swamp - [Entrance] Fleemer By Fence 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Front,$enemy_access|fleemer"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "South Graveyard Lost Echo",
+            "access_rules": [
+              "@Swamp Front,$enemy_access|lost_echo"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6695,10 +6314,7 @@
             "sections": [
               {
                 "name": "Swamp - [South Graveyard] Lost Echo",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Front,$enemy_access|lost_echo"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -6751,6 +6367,9 @@
           },
           {
             "name": "Lost Echo 1",
+            "access_rules": [
+              "@Swamp Mid,$enemy_access|lost_echo"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6768,15 +6387,15 @@
             "sections": [
               {
                 "name": "Swamp - [Central] Lost Echo 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|lost_echo"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Lost Echo 2",
+            "access_rules": [
+              "@Swamp Mid,$enemy_access|lost_echo"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6794,10 +6413,7 @@
             "sections": [
               {
                 "name": "Swamp - [Central] Lost Echo 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|lost_echo"
-                ]
+                "item_count": 1
               }
             ]
           },
@@ -6852,6 +6468,9 @@
           },
           {
             "name": "Lost Echo 4",
+            "access_rules": [
+              "@Swamp Mid,$enemy_access|lost_echo"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6869,15 +6488,15 @@
             "sections": [
               {
                 "name": "Swamp - [Central] Lost Echo 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|lost_echo"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Lost Echo 5",
+            "access_rules": [
+              "@Swamp Mid,$enemy_access|lost_echo"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6895,15 +6514,15 @@
             "sections": [
               {
                 "name": "Swamp - [Central] Lost Echo 6",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|lost_echo"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Lost Echo 6",
+            "access_rules": [
+              "@Swamp Mid,$enemy_access|lost_echo"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6921,15 +6540,15 @@
             "sections": [
               {
                 "name": "Swamp - [Central] Lost Echo 5",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|lost_echo"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Upper Graveyard Fencers",
+            "access_rules": [
+              "@Swamp Mid,$enemy_access|fleemer_fencer"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6947,29 +6566,23 @@
             "sections": [
               {
                 "name": "Swamp - [Upper Graveyard] Fleemer Fencer 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|fleemer_fencer"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Swamp - [Upper Graveyard] Fleemer Fencer 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|fleemer_fencer"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Swamp - [Upper Graveyard] Fleemer Fencer 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|fleemer_fencer"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Upper Graveyard Void Hushers",
+            "access_rules": [
+              "@Swamp Mid,$enemy_access|husher"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -6988,25 +6601,16 @@
               {
                 "name": "Swamp - [Upper Graveyard] Void Husher 1",
                 "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|husher"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               },
               {
                 "name": "Swamp - [Upper Graveyard] Void Husher 2",
                 "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|husher"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               },
               {
                 "name": "Swamp - [Upper Graveyard] Void Husher 3",
                 "item_count": 1,
-                "access_rules": [
-                  "@Swamp Mid,$enemy_access|husher"
-                ],
                 "visibility_rules": "enemy_drops_extra"
               }
             ]
@@ -7296,6 +6900,9 @@
           },
           {
             "name": "Gauntlet Fairy Wave",
+            "access_rules": [
+              "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -7313,127 +6920,79 @@
             "sections": [
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 5",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 6",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 9",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 7",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 10",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 11",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 14",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 12",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 17",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 16",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 15",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 8",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fairy Wave 13",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fairy_gauntlet"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Gauntlet Fleemer Wave",
+            "access_rules": [
+              "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -7451,113 +7010,71 @@
             "sections": [
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 8",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 14",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 6",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 5",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 10",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 15",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 13",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 7",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 12",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 9",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Fleemer Wave 11",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|fleemer_gauntlet"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Gauntlet Custodian Wave",
+            "access_rules": [
+              "@Cathedral Gauntlet,$enemy_access|custodian"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -7575,43 +7092,31 @@
             "sections": [
               {
                 "name": "Cathedral Gauntlet - Wizard Custodian Wave 5",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|custodian"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Wizard Custodian Wave 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|custodian"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Wizard Custodian Wave 3",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|custodian"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Wizard Custodian Wave 4",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|custodian"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Wizard Custodian Wave 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|custodian"
-                ]
+                "item_count": 1
               }
             ]
           },
           {
             "name": "Gauntlet Garden Knight Wave",
+            "access_rules": [
+              "@Cathedral Gauntlet,$enemy_access|garden_knight"
+            ],
             "map_locations": [
               {
                 "map": "fullmap",
@@ -7629,17 +7134,11 @@
             "sections": [
               {
                 "name": "Cathedral Gauntlet - Garden Knight Wave 1",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|garden_knight"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Cathedral Gauntlet - Garden Knight Wave 2",
-                "item_count": 1,
-                "access_rules": [
-                  "@Cathedral Gauntlet,$enemy_access|garden_knight"
-                ]
+                "item_count": 1
               }
             ]
           },
